@@ -42,6 +42,5 @@ export class SpotifyService {
     //     console.log(data);
     //   })
     // );
-    console.log();
   }
 }
