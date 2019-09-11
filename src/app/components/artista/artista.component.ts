@@ -34,6 +34,7 @@ export class ArtistaComponent implements OnInit {
     this.spotify.getTopTrack(id).subscribe((data: any) => {
       this.topTracks = data.tracks;
       console.log('data llegada', data);
+      console.log();
     });
   }
 
